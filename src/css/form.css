@@ -1,0 +1,137 @@
+.container-form {
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.feedback-form {
+    display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+
+border-radius: 8px;
+padding: 24px;
+width: 360px;
+height: 248px;
+border: solid 1px #cfcfcf;
+background: #fff;
+  }
+  
+.feedback-form label {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+}
+.label .email {
+width: 358px;
+height: 72px;
+padding-top: 24px;
+
+}
+.label .textarea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    
+    width: 360px;
+    height: 112px;
+}
+  
+  .email {
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+width: 360px;
+height: 72px;
+
+  }
+  .textarea {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+
+
+
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+  }
+  .feedback-form input{
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+width: 360px;
+height: 40px;
+padding: 0;
+margin: 0;
+border: solid 1px #a0a0a0;
+border-radius: 4px;
+font-size: 16px;
+padding-left: 3px;
+  }
+
+  
+  .feedback-form textarea {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+width: 360px;
+height: 80px;
+padding: 0;
+margin: 0;
+border: solid 1px #a0a0a0;
+border-radius: 4px;
+font-size: 16px;
+padding-left: 3px;
+padding-top: 3px;
+  }
+  
+  .feedback-form input:hover,
+  .feedback-form textarea:hover {
+    border-color: #333;
+  }
+  
+  .feedback-form input:focus,
+  .feedback-form textarea:focus {
+    border-color: #000000;
+    outline: none;
+  }
+  
+  .feedback-form button {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+border-radius: 8px;
+padding: 8px 16px;
+width: 95px;
+height: 40px;
+background: #4e75ff;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+
+
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+border: solid transparent;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #6c8cff;
+  }
